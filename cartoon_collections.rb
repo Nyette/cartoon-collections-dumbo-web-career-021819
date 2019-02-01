@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
     puts "#{index + 1}. #{dwarf}"
   end
 end
-  
+
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.collect do |call|
     call.capitalize + "!"
@@ -22,3 +22,4 @@ def find_the_cheese(array)
     cheese_types.include?(item)
   end
 end
+
